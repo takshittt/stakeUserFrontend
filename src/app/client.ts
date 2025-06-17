@@ -15,9 +15,8 @@ export const client = createThirdwebClient({
   clientId: CLIENT_ID || "",
 });
 
-// Create auth instance for SIWE (Sign-In with Ethereum)
 export const thirdwebAuth = createAuth({
-  domain: process.env.NEXT_PUBLIC_DOMAIN || "localhost:3000", // Make sure this matches your domain
+  domain: process.env.NEXT_PUBLIC_DOMAIN || "localhost:8000",
   client,
   adminAccount: privateKeyToAccount({
     client,
