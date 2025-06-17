@@ -16,7 +16,7 @@ export const client = createThirdwebClient({
 });
 
 export const thirdwebAuth = createAuth({
-  domain: process.env.NEXT_PUBLIC_DOMAIN || "localhost:8000",
+  domain: process.env.NEXT_PUBLIC_DOMAIN || "localhost:3000",
   client,
   adminAccount: privateKeyToAccount({
     client,
