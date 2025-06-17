@@ -1,0 +1,79 @@
+.connect-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-container {
+  background-color: rgba(127, 29, 29, 0.3);
+  border: 1px solid #dc2626;
+  color: #fecaca;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  max-width: 28rem;
+}
+
+.error-title {
+  font-weight: 500;
+}
+
+.error-message {
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  color: #fca5a5;
+}
+
+.connect-title-container {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.connect-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.connect-description {
+  color: #a0a0a0;
+  max-width: 28rem;
+  margin: 0 auto;
+}
+
+.connect-button-container {
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(110, 69, 226, 0.2);
+  box-shadow: 0 10px 15px -3px rgba(110, 69, 226, 0.05);
+}
+
+/* Override ThirdWeb Connect Button styles if needed */
+.connect-button-container button {
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.connect-button-container button:hover {
+  opacity: 0.9;
+}
+
+/* Add styles for the loading indicator */
+.loading-indicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.loading-indicator p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}

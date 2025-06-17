@@ -1,0 +1,29 @@
+{
+  "name": "erc20stakingapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build && next export",
+    "static": "next build && next export",
+    "clean": "rm -rf .next out dist node_modules/.cache",
+    "fresh-install": "rm -rf node_modules package-lock.json && npm install"
+  },
+  "dependencies": {
+    "ethers": "5",
+    "moment": "^2.30.1",
+    "next": "^14.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "thirdweb": "^5.98.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}
