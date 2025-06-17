@@ -7,11 +7,12 @@ pages_build_output_dir = "out"
 [env.production]
 name = "staketoken-prod"
 
+# Environment variables for production
 [env.production.vars]
-NEXT_PUBLIC_CLIENT_ID = "your-thirdweb-client-id"
-NEXT_PUBLIC_DOMAIN = "staketoken.pages.dev"
+NEXT_PUBLIC_CLIENT_ID = "2c40b06682460f0e63c9dceb29f8f3ec"
+NEXT_PUBLIC_DOMAIN = ""
 NEXT_PUBLIC_API_URL = "https://your-backend-api.com"
-NEXT_PUBLIC_PRIVATE_KEY = "your-private-key"
+NEXT_PUBLIC_PRIVATE_KEY = "0x97703a24ae8776b1970f479e2857dc9465b3c4f5047c67a8d57fed0ac42a16c0"
 
 # Build configuration for static site
 [build]
